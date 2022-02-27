@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CSS on clock */
+.circle{
+    border-radius: 50%;
+}
+.type-1{
+    width: 550px;
+    height: 550px;
+    background: rgb(219, 233, 233);
+    border: 20px solid black;
+    margin: 30px auto;
+    position: relative;
+    background-image: url('final-bg.png');
+    background-size: 100%;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 6px solid red;
+    border-radius: 50%;
+    z-index:7;
+}
+.min-hand{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 40%;
+    height: 2%;
+    background-color: black;
+    z-index: 3;
+    transform-origin: 0%;
+}
+.hour-hand{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 25%;
+    height: 2%;
+    transform-origin: 0%;
+    background-color: black;
+    z-index: 2;
+}
+.sec-hand{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 48%;
+    height: 2%;
+    transform-origin: 0%;
+    background-color: brown;
+    z-index: 4;
+}
+
+/* CSS on clock ends here */
+
+
+.nav-bar{
+    display: flex;
+    background-color: rgb(207, 207, 207);
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar-left > ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-bar-left > ul > li{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    align-items: center;
+
+}
+.nav-bar-left>ul>a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-bar-left > ul > li:hover{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid red;
+    align-items: center;
+    cursor: pointer;
+
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 202, 202);
+    padding: 5px;
+}
