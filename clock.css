@@ -8,8 +8,8 @@
     border-radius: 50%;
 }
 .type-1{
-    width: 550px;
-    height: 550px;
+    width: 60vh;
+    height: 60vh;
     background: rgb(219, 233, 233);
     border: 20px solid black;
     margin: 30px auto;
